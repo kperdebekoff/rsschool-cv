@@ -8,8 +8,9 @@
 
 - **Location:** Tashkent, Uzbekistan
 - **Phone:** +998992352293
+- **Telegram** [@kperdebekoff] (https://t.me/kperdebekoff)
 - **Email:** kperdebekoff@gmail.com
-- **Github:** github.com/kperdebekoff
+- **Github:** [github.com/kperdebekoff] (https://github.com/kperdebekoff)
 
 ## About Me
 
@@ -56,9 +57,7 @@ function sum(a, b) {
 
 ### Courses
 
-RS Schools Course "JavaScript/Front-end 2022Q1" (in progress)
-
----
+- RS Schools Course "JavaScript/Front-end 2022Q1" (in progress)
 
 ## Experience
 
@@ -75,8 +74,6 @@ RS Schools Course "JavaScript/Front-end 2022Q1" (in progress)
 - **Design engineer, Almalyk (Uzbekistan)**
   - _September 2016 - August 2018 | JSC "Almalyk Mining And Metallurgical Complex"_
   - Design metallurgical machines that conform to government regulations and coordinate major company projects, often with limited time.
-
----
 
 ## Languages
 
