@@ -1,16 +1,14 @@
 # KAYYRBEK PERDEBEKOV
 
-**JUNIOR FRONTEND DEVELOPER**
-
----
+### JUNIOR FRONTEND DEVELOPER
 
 ## Contact
 
 - **Location:** Tashkent, Uzbekistan
 - **Phone:** +998992352293
-- **Telegram** [@kperdebekoff] (https://t.me/kperdebekoff)
+- **Telegram:** [@kperdebekoff](https://t.me/kperdebekoff)
 - **Email:** kperdebekoff@gmail.com
-- **Github:** [github.com/kperdebekoff] (https://github.com/kperdebekoff)
+- **Github:** [kperdebekoff](https://t.me/kperdebekoff)
 
 ## About Me
 
