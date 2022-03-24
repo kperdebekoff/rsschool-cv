@@ -7,7 +7,7 @@
 - **Location:** Tashkent, Uzbekistan
 - **Phone:** +998992352293
 - **Telegram:** [@kperdebekoff](https://t.me/kperdebekoff)
-- **Email:** kperdebekoff@gmail.com
+- **Email:** [kperdebekoff@gmail.com](mailto:kperdebekoff@gmail.com)
 - **Github:** [kperdebekoff](https://t.me/kperdebekoff)
 
 ## About Me
@@ -45,12 +45,11 @@ function sum(a, b) {
 
 ### University
 
-- **2020 | National University Science and Technology «MISIS», Moscow**
+- **2020: National University Science and Technology «MISIS», Moscow**
 
   - _Master of Science_ in Technological Machines
-  - _Education profile: Digital production of technologies and materials_
 
-- **2016 | National University Science and Technology «MISIS», Moscow**
+- **2016: National University Science and Technology «MISIS», Moscow**
   - _Bachelor of Science_ in Technological Machines
 
 ### Courses
@@ -61,17 +60,21 @@ function sum(a, b) {
 
 - **Design Engineer, Tashkent (Uzbekistan)**
 
-  - _May 2021 – June 2021 | Energycon Ltd._
-  - To review TSSR (site survey report and design drawings) for Telecommunication Base Stations which are submitted by subcontractor.
+  - _May 2021 – June 2021: Energycon Ltd._
+
+    To review TSSR (site survey report and design drawings) for Telecommunication Base Stations which are submitted by subcontractor.
 
 - **Design Engineer, Tashkent (Uzbekistan)**
 
-  - _February 2021 – May 2021 | Brig communications Ltd._
-  - To review TSSR (site survey report and design drawings) for Telecommunication Base Stations which are submitted by subcontractor.
+  - _February 2021 – May 2021: Brig communications Ltd._
+
+    To review TSSR (site survey report and design drawings) for Telecommunication Base Stations which are submitted by subcontractor.
 
 - **Design engineer, Almalyk (Uzbekistan)**
-  - _September 2016 - August 2018 | JSC "Almalyk Mining And Metallurgical Complex"_
-  - Design metallurgical machines that conform to government regulations and coordinate major company projects, often with limited time.
+
+  - _September 2016 - August 2018: JSC "Almalyk Mining And Metallurgical Complex"_
+
+    Design metallurgical machines that conform to government regulations and coordinate major company projects, often with limited time.
 
 ## Languages
 
