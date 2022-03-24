@@ -63,22 +63,19 @@ function sum(a, b) {
 
   _May 2021 – June 2021: Energycon Ltd._
 
-  To review TSSR (site survey report and design drawings) for Telecommunication
-  Base Stations which are submitted by subcontractor.
+  To review TSSR (site survey report and design drawings) for Telecommunication Base Stations which are submitted by subcontractor.
 
 - **Design Engineer, Tashkent (Uzbekistan)**
 
   _February 2021 – May 2021: Brig communications Ltd._
 
-  To review TSSR (site survey report and design drawings) for Telecommunication
-  Base Stations which are submitted by subcontractor.
+  To review TSSR (site survey report and design drawings) for Telecommunication Base Stations which are submitted by subcontractor.
 
 - **Design engineer, Almalyk (Uzbekistan)**
 
   _September 2016 - August 2018: JSC "Almalyk Mining And Metallurgical Complex"_
 
-  Design metallurgical machines that conform to government regulations and coordinate
-  major company projects, often with limited time.
+  Design metallurgical machines that conform to government regulations and coordinate major company projects, often with limited time.
 
 ## Languages
 
