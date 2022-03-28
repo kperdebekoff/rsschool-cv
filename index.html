@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV#2. HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span class="cv-logo">CV#2</span>
+      <nav>
+        <ul>
+          <li>Contact</li>
+          <li>Skills</li>
+          <li>Education</li>
+          <li>About</li>
+          <li>Code</li>
+          <li>Projects</li>
+          <li>Experience</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="left-column">
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li>
+              <img src="" alt="phone-logo" />
+              <p>+998992352293</p>
+            </li>
+            <li>
+              <img src="" alt="email-logo" />
+              <p>
+                <a href="mailto:kperdebekoff@gmail.com"
+                  >kperdebekoff@gmail.com</a
+                >
+              </p>
+            </li>
+            <li>
+              <img src="" alt="git-logo" />
+              <p>
+                <a href="https://github.com/kperdebekoff" target="_blank"
+                  >github.com/kperdebekoff</a
+                >
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills">
+          <h2>Skills</h2>
+          <h3>Programming</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3(Including Saas)</li>
+            <li>JavaScript(ES6+)</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Git</li>
+          </ul>
+          <h3>UI design tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>CorelDraw</li>
+          </ul>
+          <h3>Language</h3>
+          <ul>
+            <li>English A2+</li>
+            <li>Russian C2</li>
+            <li>Uzbek C2</li>
+            <li>Kazakh C2</li>
+          </ul>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="education">
+          <h2>Education</h2>
+          <h3>Courses</h3>
+          <ul>
+            <li>
+              2022 | RS Schools Course “JavaScript/Front-end 2022Q1” (in
+              progress)
+            </li>
+          </ul>
+          <h3>University</h3>
+          <ul>
+            <li>
+              2020 | National University Science and Technology «MISIS», Moscow
+              <p>Master of Science in Technological Machines</p>
+            </li>
+            <li>
+              2016 | National University Science and Technology «MISIS», Moscow
+              <p>Bachelor of Science in Technological Machines</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="right-column">
+        <section id="head" class="head">
+          <h1>Kayyrbek Perdebekov</h1>
+          <h2>Frontend Developer</h2>
+          <div>
+            <img src="" alt="location-logo" />
+            <p>Tashkent, Uzbekistan</p>
+          </div>
+          <img src="" alt="user-photo" />
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about">
+          <h2>About Me</h2>
+          <p>
+            I am a results oriented person with an analytical mindset and strong
+            soft skills.
+          </p>
+        </section>
+
+        <!-- CODE -->
+        <section id="code" class="code">
+          <h2>Code Example</h2>
+          <h4>Introduction task from codewars</h4>
+          <pre>
+          <code
+            >function add(num1, num2) {
+              if (typeof num1 === "number" && typeof num2 === "number") {
+                return num1 + num2;
+              } else {
+                return +num1 + +num2;
+              }
+            }</code
+          >
+        </pre>
+        </section>
+
+        <!-- WEB PROJECTS -->
+        <article id="web-projects" class="web-projects">
+          <h4>
+            Introduction project from RS Schools Course “JavaScript/Front-end
+            2022Q1”
+          </h4>
+          <a href="https://kperdebekoff.github.io/rsschool-cv/cv"
+            >CV#1. Markdown & Git</a
+          >
+          <p>
+            Create a personal public rsschool-cv repository, add a CV in
+            markdown format, deploy it to GitHub Pages, add some commits and
+            pull request.
+          </p>
+          <a href="#">CV#2. HTML, CSS & Git Basics</a>
+          <p>
+            Create the rsschool-cv-html branch in the rsschool-cv repository
+            from the gh-pages branch, add index.html and style.css files, and
+            deploy them to GitHub Pages.
+          </p>
+        </article>
+
+        <!-- WORK EXPERIENCE -->
+        <article id="work-experience" class="work-experience">
+          <h2>Work Experience</h2>
+          <div>
+            <h4>Design Engineer, Tashkent (Uzbekistan)</h4>
+            <span>May 2021 – June 2021 | Energycon Ltd.</span>
+            <p>
+              To review TSSR (site survey report and design drawings) for
+              Telecommunication Base Stations which are submitted by
+              subcontractor.
+            </p>
+          </div>
+          <div>
+            <h4>Design Engineer, Tashkent (Uzbekistan)</h4>
+            <span>February 2021 – May 2021 | Brig communications Ltd.</span>
+            <p>
+              To review TSSR (site survey report and design drawings) for
+              Telecommunication Base Stations which are submitted by
+              subcontractor.
+            </p>
+          </div>
+          <div>
+            <h4>Design engineer, Almalyk (Uzbekistan)</h4>
+            <span
+              >September 2016 - August 2018 | JSC "Almalyk Mining And
+              Metallurgical Complex"</span
+            >
+            <p>
+              Design metallurgical machines that conform to government
+              regulations and coordinate major company projects, often with
+              limited time.
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/kperdebekoff"
+        ><img src="" alt="github-logo"
+      /></a>
+      <p>Copyright &copy;2022 - CV#2</p>
+      <a href="https://rs.school/js/"><img src="" alt="rsschool-logo" /></a>
+    </footer>
+  </body>
+</html>
