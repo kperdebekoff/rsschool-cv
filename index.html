@@ -14,17 +14,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="navbar">
       <span class="cv-logo">CV#2</span>
       <nav>
         <ul>
-          <li>Contact</li>
-          <li>Skills</li>
-          <li>Education</li>
-          <li>About</li>
-          <li>Code</li>
-          <li>Projects</li>
-          <li>Experience</li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#web-projects">Projects</a></li>
+          <li><a href="#work-experience">Experience</a></li>
         </ul>
       </nav>
     </header>
@@ -32,18 +32,27 @@
     <main>
       <div class="right-column">
         <section id="profile" class="profile">
-          <h1>Kayyrbek Perdebekov</h1>
-          <h2>Frontend Developer</h2>
-          <div>
-            <img
-              src="assets/icons/location.svg"
-              alt="location-logo"
-              width="16"
-              height="20"
-            />
-            <p>Tashkent, Uzbekistan</p>
+          <div class="user-info">
+            <h1>Kayyrbek Perdebekov</h1>
+            <h2>Frontend Developer</h2>
+            <div class="location">
+              <img
+                src="assets/icons/location.svg"
+                alt="location-logo"
+                width="16"
+                height="20"
+              />
+              <p>Tashkent, Uzbekistan</p>
+            </div>
           </div>
-          <img src="assets/img/user-photo.jpg" alt="user-photo" />
+          <div class="user-photo">
+            <img
+              src="./assets/img/user-photo.jpg"
+              alt="user-photo"
+              width="220"
+              height="220"
+            />
+          </div>
         </section>
 
         <!-- ABOUT -->
