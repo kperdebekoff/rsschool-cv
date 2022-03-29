@@ -14,129 +14,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="navbar">
       <span class="cv-logo">CV#2</span>
       <nav>
         <ul>
-          <li>Contact</li>
-          <li>Skills</li>
-          <li>Education</li>
-          <li>About</li>
-          <li>Code</li>
-          <li>Projects</li>
-          <li>Experience</li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#web-projects">Projects</a></li>
+          <li><a href="#work-experience">Experience</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="left-column">
-        <!-- CONTACT -->
-        <section id="contact" class="contact">
-          <h2>Contact</h2>
-          <ul>
-            <li>
-              <img
-                src="assets/icons/phone.svg"
-                alt="phone-logo"
-                width="16"
-                height="12"
-              />
-              <p>+998992352293</p>
-            </li>
-            <li>
-              <img
-                src="assets/icons/email.svg"
-                alt="email-logo"
-                width="16"
-                height="12"
-              />
-              <p>
-                <a href="mailto:kperdebekoff@gmail.com"
-                  >kperdebekoff@gmail.com</a
-                >
-              </p>
-            </li>
-            <li>
-              <img
-                src="assets/icons/git.svg"
-                alt="git-logo"
-                width="16"
-                height="16"
-              />
-              <p>
-                <a href="https://github.com/kperdebekoff" target="_blank"
-                  >github.com/kperdebekoff</a
-                >
-              </p>
-            </li>
-          </ul>
-        </section>
-
-        <!-- SKILLS -->
-        <section id="skills" class="skills">
-          <h2>Skills</h2>
-          <h3>Programming</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3(Including Saas)</li>
-            <li>JavaScript(ES6+)</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>Git</li>
-          </ul>
-          <h3>UI design tools</h3>
-          <ul>
-            <li>Figma</li>
-            <li>CorelDraw</li>
-          </ul>
-          <h3>Language</h3>
-          <ul>
-            <li>English A2+</li>
-            <li>Russian C2</li>
-            <li>Uzbek C2</li>
-            <li>Kazakh C2</li>
-          </ul>
-        </section>
-
-        <!-- EDUCATION -->
-        <section id="education" class="education">
-          <h2>Education</h2>
-          <h3>Courses</h3>
-          <ul>
-            <li>
-              2022 | RS Schools Course “JavaScript/Front-end 2022Q1” (in
-              progress)
-            </li>
-          </ul>
-          <h3>University</h3>
-          <ul>
-            <li>
-              2020 | National University Science and Technology «MISIS», Moscow
-              <p>Master of Science in Technological Machines</p>
-            </li>
-            <li>
-              2016 | National University Science and Technology «MISIS», Moscow
-              <p>Bachelor of Science in Technological Machines</p>
-            </li>
-          </ul>
-        </section>
-      </div>
-
       <div class="right-column">
-        <section id="head" class="head">
-          <h1>Kayyrbek Perdebekov</h1>
-          <h2>Frontend Developer</h2>
-          <div>
-            <img
-              src="assets/icons/location.svg"
-              alt="location-logo"
-              width="16"
-              height="20"
-            />
-            <p>Tashkent, Uzbekistan</p>
+        <section id="profile" class="profile">
+          <div class="user-info">
+            <h1>Kayyrbek Perdebekov</h1>
+            <h2>Frontend Developer</h2>
+            <div class="location">
+              <img
+                src="assets/icons/location.svg"
+                alt="location-logo"
+                width="16"
+                height="20"
+              />
+              <p>Tashkent, Uzbekistan</p>
+            </div>
           </div>
-          <img src="assets/img/user-photo.jpg" alt="user-photo" />
+          <div class="user-photo">
+            <img
+              src="./assets/img/user-photo.jpg"
+              alt="user-photo"
+              width="220"
+              height="220"
+            />
+          </div>
         </section>
 
         <!-- ABOUT -->
@@ -155,40 +71,40 @@
           <pre>
           <code
             >function add(num1, num2) {
-              if (typeof num1 === "number" && typeof num2 === "number") {
-                return num1 + num2;
-              } else {
-                return +num1 + +num2;
-              }
-            }</code
-          >
-        </pre>
+            return +num1 + +num2;
+          }</code
+          ></pre>
         </section>
 
         <!-- WEB PROJECTS -->
-        <article id="web-projects" class="web-projects">
+        <section id="web-projects" class="web-projects">
+          <h2>Web projects</h2>
           <h4>
             Introduction project from RS Schools Course “JavaScript/Front-end
             2022Q1”
           </h4>
-          <a href="https://kperdebekoff.github.io/rsschool-cv/cv"
-            >CV#1. Markdown & Git</a
-          >
+          <p>
+            <a href="https://kperdebekoff.github.io/rsschool-cv/cv"
+              >CV#1. Markdown & Git</a
+            >
+          </p>
           <p>
             Create a personal public rsschool-cv repository, add a CV in
             markdown format, deploy it to GitHub Pages, add some commits and
             pull request.
           </p>
-          <a href="#">CV#2. HTML, CSS & Git Basics</a>
+          <p>
+            <a href="#">CV#2. HTML, CSS & Git Basics</a>
+          </p>
           <p>
             Create the rsschool-cv-html branch in the rsschool-cv repository
             from the gh-pages branch, add index.html and style.css files, and
             deploy them to GitHub Pages.
           </p>
-        </article>
+        </section>
 
         <!-- WORK EXPERIENCE -->
-        <article id="work-experience" class="work-experience">
+        <section id="work-experience" class="work-experience">
           <h2>Work Experience</h2>
           <div>
             <h4>Design Engineer, Tashkent (Uzbekistan)</h4>
@@ -220,16 +136,123 @@
               limited time.
             </p>
           </div>
-        </article>
+        </section>
+      </div>
+
+      <div class="left-column">
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li>
+              <img
+                src="assets/icons/phone.svg"
+                alt="phone-logo"
+                width="16"
+                height="12"
+              />
+              <p>+998992352293</p>
+            </li>
+            <li>
+              <a href="mailto:kperdebekoff@gmail.com">
+                <img
+                  src="assets/icons/email.svg"
+                  alt="email-logo"
+                  width="16"
+                  height="12"
+                />
+              </a>
+              <p>
+                <a href="mailto:kperdebekoff@gmail.com"
+                  >kperdebekoff@gmail.com</a
+                >
+              </p>
+            </li>
+            <li>
+              <a href="https://github.com/kperdebekoff" target="_blank">
+                <img
+                  src="assets/icons/git.svg"
+                  alt="git-logo"
+                  width="16"
+                  height="16"
+                />
+              </a>
+              <p>
+                <a href="https://github.com/kperdebekoff" target="_blank"
+                  >github.com/kperdebekoff</a
+                >
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills">
+          <h2>Skills</h2>
+          <h4>Programming</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3(Including Saas)</li>
+            <li>JavaScript(ES6+)</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Git</li>
+          </ul>
+          <h4>UI design tools</h4>
+          <ul>
+            <li>Figma</li>
+            <li>CorelDraw</li>
+          </ul>
+          <h4>Language</h4>
+          <ul>
+            <li>English A2+</li>
+            <li>Russian C2</li>
+            <li>Uzbek C2</li>
+            <li>Kazakh C2</li>
+          </ul>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="education">
+          <h2>Education</h2>
+          <h4>Courses</h4>
+          <ul>
+            <li>
+              <p>
+                2022 | RS Schools Course “JavaScript/Front-end 2022Q1” (in
+                progress)
+              </p>
+            </li>
+          </ul>
+          <h4>University</h4>
+          <ul>
+            <li>
+              <h4>
+                2020 | National University Science and Technology «MISIS»,
+                Moscow
+              </h4>
+              <p>Master of Science in Technological Machines</p>
+            </li>
+            <li>
+              <h4>
+                2016 | National University Science and Technology «MISIS»,
+                Moscow
+              </h4>
+              <p>Bachelor of Science in Technological Machines</p>
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
 
     <footer>
       <a href="https://github.com/kperdebekoff"
-        ><img src="" alt="github-logo"
+        ><img src="./assets/icons/github.svg" alt="github-logo"
       /></a>
       <p>Copyright &copy;2022 - CV#2</p>
-      <a href="https://rs.school/js/"><img src="" alt="rsschool-logo" /></a>
+      <a href="https://rs.school/js/"
+        ><img src="./assets/icons/rs_school_js.svg" alt="rsschool-logo"
+      /></a>
     </footer>
   </body>
 </html>
