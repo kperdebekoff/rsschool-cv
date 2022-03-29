@@ -195,3 +195,14 @@ main {
 .skills li:last-child {
   padding-bottom: 10px;
 }
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  height: 76px;
+  margin-top: 20px;
+  padding: 0 25px;
+}
